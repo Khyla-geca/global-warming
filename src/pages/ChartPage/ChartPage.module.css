@@ -1,0 +1,28 @@
+.chartPage{
+    width: 100%;
+    height: fit-content;
+
+    background-color: #283a33;
+}
+
+.chartContainer{
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.error{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(227, 96, 96);
+}
+
+@media (max-width: 480px) {
+   .chartContainer{
+    height: 400px;
+   }
+}    
+
+
