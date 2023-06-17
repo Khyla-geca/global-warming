@@ -15,7 +15,7 @@ const Sidebar = () => {
       <Hamburger isActive={isActive} setIsActive={setIsActive} />
       {isActive && (
         <div className={SidebarCSS.sidebar}>
-          <SidebarLink destination={"/"} value={"Homepage"} />
+          <SidebarLink destination={"/"} value={"return to homepage"} />
           <h3 className={SidebarCSS.listTitle}>DOSSIER</h3>
           <ul className={SidebarCSS.dataList}>
             <li>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import hamburgerCSS from "./Hamburger.module.css";
+import HamburgerCSS from "./Hamburger.module.css";
 
 const Hamburger = ({ isActive, setIsActive }) => {
   return (
@@ -8,10 +8,10 @@ const Hamburger = ({ isActive, setIsActive }) => {
       onClick={() => {
         setIsActive((prevState) => !prevState);
       }}
-      className={`${hamburgerCSS.hamburger} ${isActive && hamburgerCSS.active}`}
+      className={`${HamburgerCSS.hamburger} ${isActive && HamburgerCSS.active}`}
     >
-      <hr className={hamburgerCSS.hamburgerLine} />
-      <hr className={hamburgerCSS.hamburgerLine} />
+      <hr className={HamburgerCSS.hamburgerLine} />
+      <hr className={HamburgerCSS.hamburgerLine} />
     </div>
   );
 };

@@ -5,12 +5,14 @@
   "dependencies": {
     "axios": "^1.4.0",
     "chart.js": "^4.3.0",
+    "charts.css": "^0.9.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-loading-icons": "^1.1.0",
     "react-router-dom": "^6.12.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "react-suspense-fetch": "^0.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

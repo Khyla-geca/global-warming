@@ -38,15 +38,6 @@ const LineChart = ({ data, id }) => {
                 fontSize: 12,
               },
             },
-            xAxes: {
-              grid: {
-                color: "#FFFFFF60",
-              },
-              ticks: {
-                color: "white",
-                fontSize: 12,
-              },
-            },
           },
         }}
       />
