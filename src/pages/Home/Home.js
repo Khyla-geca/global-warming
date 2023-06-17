@@ -8,7 +8,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className={HomeCSS.homeWallpaper}>
+    <div className={HomeCSS.homeBackground}>
       <div className={HomeCSS.container}>
         <div className={HomeCSS.content}>
           <h1 className={HomeCSS.title}>care for our earth</h1>
