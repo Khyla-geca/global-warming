@@ -27,22 +27,11 @@ const LineChart = ({ data, id }) => {
             },
           ],
         }}
-        options={{
-          scales: {
-            yAxes: {
-              grid: {
-                color: "#FFFFFF60",
-              },
-              ticks: {
-                color: "white",
-                fontSize: 12,
-              },
-            },
-          },
-        }}
-      />
+      
 
-      {data.map((data, i, arr) => {
+        
+      />
+ {data.map((data, i, arr) => {
         return (
           i === arr.length - 1 && (
             <h3 className={ChartCSS.todayValue} key={i}>
@@ -52,6 +41,7 @@ const LineChart = ({ data, id }) => {
           )
         );
       })}
+     
     </div>
   );
 };
